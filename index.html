@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          screens: {
+            sm: "567px",
+            // => @media (min-width: 640px) { ... }
+
+            md: "768px",
+            // => @media (min-width: 768px) { ... }
+
+            lg: "1024px",
+            // => @media (min-width: 1024px) { ... }
+
+            xl: "1280px",
+            // => @media (min-width: 1280px) { ... }
+
+            "2xl": "1536px",
+            // => @media (min-width: 1536px) { ... }
+          },
+          extend: {
+            screens: {
+              xs: { min: "320px", max: "566px" },
+              // => @media (min-width: 992px) { ... }
+            },
+            colors: {
+              wscolor: "#2c3e50",
+            },
+          },
+        },
+      };
+    </script>
+    <script
+      src="https://kit.fontawesome.com/2c9e05aa16.js"
+      crossorigin="anonymous"
+    ></script>
+
+    
+  </head>
+
+  <body>
+    <div class="max-w-[1320px] md:py-[80] py-5 mx-auto">
+      <h1 class="text-4xl text-[#b20a2c] ">Code with Us</h1>
+    </div>
+    <div class="max-w-[1320px] md:py-[80] py-5 mx-auto">
+      <h2 class="text-4xl text-center">Our services</h2>
+    </div>
+
+    <div
+      class="max-w-[1200px] mx-auto py-[30px] grid lg:grid-cols-4 sm:grid-cols-2 gap-6"
+    >
+      <div
+        class="group shadow-lg p-4 text-center hover:bg-blue-500 hover:text-white duration-1000"
+      >
+        <i
+          class="fas fa-laptop-code text-3xl text-blue-900 group-hover:text-white duration-1000 animate-bounce"
+        ></i>
+        <h3 class="text-4xl py-2">Web design</h3>
+        <p>Get your website design easily.</p>
+      </div>
+      <div
+        class="group shadow-lg p-4 text-center hover:bg-blue-500 hover:text-white duration-1000"
+      >
+        <i
+          class="fa-solid fa-ticket text-3xl text-blue-900 group-hover:text-white duration-1000 animate-bounce"
+        ></i>
+        <h3 class="text-4xl py-2">Online Tickets</h3>
+        <p>Travel all over the world without any burden.</p>
+      </div>
+
+      <div
+        class="group shadow-lg p-4 text-center hover:bg-blue-500 hover:text-white duration-1000"
+      >
+        <i
+          class="fa-solid fa-cloud text-3xl text-blue-900 group-hover:text-white duration-1000 animate-bounce"
+        ></i>
+        <h3 class="text-4xl py-2">Cloud Services</h3>
+        <p>No need to worry about physical storage anymore.</p>
+      </div>
+
+      <div
+        class="group shadow-lg p-4 text-center hover:bg-blue-500 hover:text-white duration-1000"
+      >
+        <i
+          class="fa-brands fa-figma text-3xl text-blue-900 group-hover:text-white duration-1000 animate-bounce"
+        ></i>
+        <h3 class="text-4xl py-2">Figma design</h3>
+        <p>Design your imagination.</p>
+      </div>
+
+      <div
+        class="group shadow-lg p-4 text-center hover:bg-blue-500 hover:text-white duration-1000"
+      >
+        <i
+          class="fa-brands fa-windows text-3xl text-blue-900 group-hover:text-white duration-1000 animate-bounce"
+        ></i>
+        <h3 class="text-4xl py-2">Windows Services</h3>
+        <p>All windows service available.</p>
+      </div>
+      <div
+        class="group shadow-lg p-4 text-center hover:bg-blue-500 hover:text-white duration-1000"
+      >
+        <i
+          class="fa-solid fa-code text-3xl text-blue-900 group-hover:text-white duration-1000 animate-bounce"
+        ></i>
+        <h3 class="text-4xl py-2">Coding</h3>
+        <p>Get Hands on experience on coding.</p>
+      </div>
+
+      <div
+        class="group shadow-lg p-4 text-center hover:bg-blue-500 hover:text-white duration-1000"
+      >
+        <i
+          class="fas fa-database text-3xl text-blue-900 group-hover:text-white duration-1000 animate-bounce"
+        ></i>
+        <h3 class="text-4xl py-2">Database</h3>
+        <p>Omly one place to store your data.</p>
+      </div>
+      <div
+        class="group shadow-lg p-4 text-center hover:bg-blue-500 hover:text-white duration-1000"
+      >
+        <i
+          class="fas fa-shield text-3xl text-blue-900 group-hover:text-white duration-1000 animate-bounce"
+        ></i>
+        <h3 class="text-4xl py-2">Shield</h3>
+        <p>Protect your digital Assets with us.</p>
+      </div>
+    </div>
+
+    <div class="max-w-[1320px] md:py-[80px] py-5 flex sm:flex-row flex-col mx-auto">
+      <div class="basis-[45%] pb-5">
+        <img
+          class="w-full"
+          src="https://images.unsplash.com/photo-1513258496099-48168024aec0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+          alt=""
+        />
+      </div>
+
+      <div class="basis-[55%] px-5">
+      <h1 class="text-2xl pb-5">Coding Journey !</h1>
+      <p class="py-3">Coding is one of those terms everyone has heard of, but few understand
+        how it works and what it’s used for. This article discusses coding in
+        computer programming. What coding is and how it’s used. We explore
+        everything from how computer programmers use code to machine code in
+        web development. We also discuss what jobs you can get if you know
+        coding languages.</p>
+      <p class="py-3">Coding is one of those terms everyone has heard of, but few understand
+        how it works and what it’s used for. This article discusses coding in
+        computer programming. What coding is and how it’s used. We explore
+        everything from how computer programmers use code to machine code in
+        web development. We also discuss what jobs you can get if you know
+        coding languages.</p>
+ 
+      </div>
+    </div>
+
+    <!-- Featured products -->
+
+    <div class="max-w-[1320px] mx-auto">
+      <h1 class="text-4xl text-center py-5">Featured products</h1>
+    </div>
+
+    <div
+      class="max-w-[1320px] mx-auto grid lg:grid-cols-4 md:grid-cols-2 gap-5 px-[20px] "
+    >
+      <div class="text-center shadow-lg rounded">
+        <div class="overflow-hidden">
+          <img
+            class="hover:scale-125 duration-1000 cursor-pointer object-contain h-100 "
+            src="https://images.unsplash.com/photo-1617005082133-548c4dd27f35?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1364&q=80"
+            alt=""
+          />
+        </div>
+
+        <h3 class="py-2 text-xl">Canon High Quality lens (f-1.2)</h3>
+        <p>Price :500$</p>
+      </div>
+      <div class="text-center shadow-lg rounded">
+        <div class="overflow-hidden">
+          <img
+            class="hover:scale-125 duration-1000 cursor-pointer object-contain h-100"
+            src="https://images.unsplash.com/photo-1616088886430-ccd86fef0713?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1349&q=80"
+            alt=""
+          />
+        </div>
+
+        <h3 class="py-2 text-xl">Sony Alpha-7</h3>
+        <p>Price :1000$</p>
+      </div>
+
+      <div class="text-center shadow-lg rounded">
+        <div class="overflow-hidden">
+          <img
+            class="hover:scale-125 duration-1000 cursor-pointer object-contain h-100"
+            src="https://images.unsplash.com/photo-1619490287889-fce8cc514864?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1328&q=80"
+            alt=""
+          />
+        </div>
+
+        <h3 class="py-2 text-xl">Rode Mic</h3>
+        <p>Price :600$</p>
+      </div>
+      <div class="text-center shadow-lg rounded">
+        <div class="overflow-hidden">
+          <img
+            class="hover:scale-125 duration-1000 cursor-pointer object-contain h-100"
+            src="https://images.unsplash.com/photo-1596628319258-c6f3f387a1ed?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1364&q=80"
+            alt=""
+          />
+        </div>
+
+        <h3 class="py-2 text-xl">Super Quality Headphone</h3>
+        <p>Price :450$</p>
+      </div>
+    </div>
+    <!-- Featured products section ends here -->
+  </body>
+</html>
